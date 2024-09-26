@@ -1,0 +1,104 @@
+/* NAVBAR */
+.nav-custom{
+    backdrop-filter: blur(15px);
+    box-shadow: 1px 1px 8px 1px var(--ceruleolight);
+}
+
+.nav-logo{
+    color: var(--bluewater);
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.my-logo{
+    height: 55px;
+}
+
+.my-logo-nav{
+    height: 60px;
+}
+
+.my-logo-nav:hover{
+    transform: scale(1.1);
+}
+
+.profile-icon{
+    height: 30px;
+}
+
+.language-icon{
+    height: 20px;
+}
+
+.loupe-icon{
+    height: 20px;
+}
+
+.nav-title{
+    color: var(--bluewater);
+    font-size: 20px;
+}
+
+.nav-title:hover{
+    color: var(--cobalt);
+}
+
+.input-search-custom{
+    position: relative;
+    
+}
+
+.loupe-btn{
+    color: var(--cobalt);
+    background-color: var(--orangelight);
+    border-radius: 50px;
+    padding: 5px 15px 5px 15px;
+    position: absolute;
+    top: 5px;
+    left: 145px;
+}
+
+.loupe-btn:hover{
+    background-color: var(--yellow);
+}
+
+.cat-custom-menu{
+    min-width: auto;
+    backdrop-filter: blur(15px);
+    background-color: rgba(245, 245, 245, 0.562);
+    border: none;
+    box-shadow: 1px 1px 8px 1px var(--ceruleolight);
+}
+
+.cat-title{
+    color: var(--bluewater);
+}
+.cat-title:hover{
+    color: var(--orangedark);
+}
+
+.lang-custom-menu{
+    min-width: auto;
+    backdrop-filter: blur(15px);
+    background-color: rgba(245, 245, 245, 0.562);
+    border: none;
+    box-shadow: 1px 1px 8px 1px var(--ceruleolight);
+}
+
+.profile-custom-menu{
+    min-width: 100%;
+    backdrop-filter: blur(15px);
+    background-color: rgba(245, 245, 245, 0.562);
+    border: none;
+    box-shadow: 1px 1px 8px 1px var(--ceruleolight);
+    text-align: end;
+    padding-right: 5%;
+}
+
+.profile-title{
+    color: var(--bluewater);
+}
+.profile-title:hover{
+    color: var(--orangedark);
+}
+

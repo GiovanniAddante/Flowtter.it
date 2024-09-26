@@ -1,0 +1,26 @@
+/* FOOTER */
+/* footer{
+    background-image: url(../../public/media/footer_bkg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+.footer-custom{
+    background-image: url(../../public/media/beach_main_bg.jpg);
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+    box-shadow: 1px 1px 8px 1px var(--ceruleolight);
+}
+
+.my-surfers-cnt{
+    background-image: url(../../public/media/footer_bkg.jpg);
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer-title{
+    color: var(--ceruleo);
+}

@@ -1,0 +1,19 @@
+/* Qui viene gestita la formattazione CSS dell'header */
+
+.header-img{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.35)), url(../../public/media/header_bkg.jpg) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50vh;
+}
+@media screen and (max-width:390px){
+    .header-img{
+        background-image: linear-gradient(rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.35)), url(../../public/media/header_bkg.jpg) ;
+        background-position:center;
+        background-size:auto;
+        background-repeat: no-repeat;
+        
+    }
+}

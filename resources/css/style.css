@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Kalam:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Kalam:wght@300;400;700&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dekko&display=swap');
+
+
+
+:root{
+    --orange: #ffc857;
+    --orangedark: #e39906;
+    --orangelight: #ffbf69;
+    --yellow: #f3fc46;
+    --yellowtransp: #f3fc4620;
+    --yellowlight: #ffef9f;
+    --cream: #faf8f2;
+    --bluedark: #012A4A;
+    --bluedarktransp: #012a4a49;
+    --blue: #013A63;
+    --cobalt: #01497C;
+    --cobaltlight: #014F86;
+    --bluewater: #2C7DA0;
+    --bluewaterlight: #61A5C2;
+    --ceruleo: #89C2D9;
+    --ceruleolight: #A9D6E5;
+}
+
+/* font-family: "Rock Salt", cursive; TITOLI PAGINE */
+
+*{
+    font-family: "Kalam", cursive;
+    color: var(--orangedark);
+}
+
+body{
+    padding-top: 3%;
+    background-image: url(../../public/media/bkg_splashes_white2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+.latestAdv-title{
+    font-family: "Kalam", cursive;
+    text-shadow: 2px 2px 3px var(--blue);
+}
+
+.my-container-wave{
+    /* height: 100px; */
+    height: 15vh;
+}
+
+.my-wave{
+    position: absolute;
+    left: 0;
+    top: -300px;
+}
+
+.my-container-wave-upside{
+    height: 100px;
+}
+
+.my-wave-upside{
+    position: absolute;
+    left: 0;
+    top: 100px;
+}
+
+.my-wave-upside-top{
+    position: absolute;
+    left: 0;
+    top: -100px;
+}
+@media screen and (max-width:390px) {
+    .my-container-wave{
+        scale: 1;
+    }
+    .my-wave{
+        width: 100%;
+        top: -165px;
+    }
+}
+
+
+.title-index-pages{
+    font-family: "Rock Salt", cursive;
+    text-shadow: 2px 2px 3px var(--yellow);
+}
+
+.no-adv-title{
+    color: var(--orangedark);   
+    text-shadow: 2px 2px 3px var(--blue);
+}
+
+.publish-adv-title{
+    color: var(--orangedark);   
+    text-shadow: 2px 2px 3px var(--blue);
+}
+
+.register-title{
+    color: var(--orangedark);   
+    text-shadow: 2px 2px 3px var(--blue);
+}
+
+.card-text-custom{
+    color: var(--orangedark);   
+    text-shadow: 2px 2px 3px var(--blue);
+}
+
+.form-custom{
+    background-color: var(--bluedarktransp);
+    border-radius: 10px;
+}
+
+.alert-custom{
+    background-color: var(--yellowtransp);
+    box-shadow: 1px 1px 8px 1px var(--ceruleolight);
+    border-radius: 10px;
+}
+
+/* Message */
+
+.error-message{
+    text-shadow: 2px 2px 2px var(--blue);
+}

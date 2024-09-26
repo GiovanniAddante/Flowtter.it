@@ -1,0 +1,107 @@
+/* Qui vengono gestiti buttons e icone */
+
+.icon-custom{
+    color: var(--orangelight);
+    font-size: large;
+}
+
+.btn-custom{
+    color: var(--cobalt);
+    background-color: var(--orangelight);
+    border-radius: 50px;
+    padding: 5px 15px 5px 15px;
+}
+
+.btn-custom:hover{
+    background-color: var(--yellow);
+}
+
+.btn-accept{
+    color: var(--bluewater);
+    background-color: var(--orangelight);
+    border-radius: 50px;
+    padding: 5px 15px 5px 15px;
+}
+
+.btn-accept:hover{
+    color: var(--orangedark);
+    background-color: var(--yellowlight);
+    border: 1px solid var(--orangedark);
+}
+
+.btn-reject{
+    color: var(--ceruleo);
+    background-color: var(--blue);
+    border-radius: 50px;
+    padding: 5px 15px 5px 15px;
+}
+
+.btn-reject:hover{
+    color: var(--blue);
+    background-color: var(--ceruleo);
+    border: 1px solid var(--blue);
+}
+
+/* advertisement create form */
+.icon-custom-h2{
+    color: var(--bluewater);
+    font-size: x-large;
+}
+
+/* CARD ADV */
+
+.img-card-custom{
+    /* height: 300px; */
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    width: 100%;
+
+}
+
+.img-revisor{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+    
+}
+
+.card{
+    border: none;
+    box-shadow: 2px 2px 16px 2px var(--cream);
+    border-radius: 11px;
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-7px);
+}
+
+.btn-custom-modify{
+    color: var(--cobalt);
+    background-color: var(--orangelight);
+    border-radius: 50px;
+}
+
+.footer-title-custom{
+    font-weight: bold;
+    font-size: large;
+    text-shadow: 2px 2px 3px var(--ceruleo);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-top: 20px;
+    }
+
+.showPsw:hover{
+    cursor: pointer;
+}
+
+.adv-icon{
+    height: 70px;
+}
+
+.sad-icon{
+    height: 50px;
+}
+
